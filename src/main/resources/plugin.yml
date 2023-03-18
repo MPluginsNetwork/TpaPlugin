@@ -1,0 +1,10 @@
+name: TpaPlugin
+version: '${project.version}'
+main: net.mplugins.tpaplugin.TpaPlugin
+api-version: 1.19
+
+commands:
+  accept:
+    description: Accept tpa request
+  tpa:
+    description: Send tpa request
